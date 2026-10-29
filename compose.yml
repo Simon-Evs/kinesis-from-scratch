@@ -3,3 +3,8 @@ services:
     image: ghcr.io/etspaceman/kinesis-mock:0.6.2
     ports:
       - "127.0.0.1:4568:4568"
+
+  python:
+    build: .
+    volumes:
+      - .:/workspace
