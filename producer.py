@@ -2,7 +2,7 @@ import json
 from client import kinesis
 
 event = {
-    "order_id": "order-003",
+    "order_id": "order-004",
     "product": "book",
     "quantity": 1,
 }
